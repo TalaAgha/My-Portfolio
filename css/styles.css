@@ -230,6 +230,8 @@ img{
     width: 100px;
 }
 .about__subtitle{
+    display: flex;
+    justify-content: center;
     font-size: var(--h2-font-size);
     color: var(--first-color);
     margin-bottom: var(--mb-1);
@@ -238,7 +240,8 @@ img{
     margin-bottom: var(--mb-4);
 }
 .about__profession{
-    display: block;
+        display: flex;
+    justify-content: center;
     margin-bottom: var(--mb-4);
 }
 .about__social-icon{
